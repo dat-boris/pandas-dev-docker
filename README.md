@@ -3,7 +3,10 @@
 This is a repo to bootstrap you to get going with [pandas development](https://github.com/pandas-dev/pandas)
 
 This helps setting up [development environment](http://pandas-docs.github.io/pandas-docs-travis/contributing.html#contributing-dev-env) 
-without too much problem.
+quickly.
+
+History: built for onboarding at
+[Pycon 2018 Canada sprint](https://github.com/pyconca/2018-wiki/wiki/Sprints)
 
 
 # Dependency
