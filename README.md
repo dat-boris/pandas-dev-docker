@@ -23,7 +23,7 @@ this [instructions](https://guides.github.com/activities/forking/)
 
 Then you can start pulling it into your repo.
 ```
-git clone git@github.com:<your user name>/pandas.git
+git clone https://github.com/<your user name>/pandas.git
 git remote add upstream git@github.com:pandas-dev/pandas.git
 ```
 
