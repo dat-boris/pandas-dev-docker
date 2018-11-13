@@ -1,5 +1,5 @@
 IMAGE_NAME=borisdachinaman/pandas_dev
-CONTAINER_NAME=$(IMAGE_NAME)_container
+CONTAINER_NAME=pandas_dev_container
 
 build:
 	docker build -t $(IMAGE_NAME) .
