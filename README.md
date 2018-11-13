@@ -45,6 +45,19 @@ $ conda activate pandas-dev
 $ python scripts/validate_docstrings.py pandas.DataFrame.mean
 ```
 
+Note that if the above doesnt run, with the error:
+
+```
+ImportError: C extension: No module named 'pandas._libs.tslibs.conversion' not built. If you want to import pandas from the source directory, you may need to run 'python setup.py build_ext --inplace --force' to build the C extensions first.
+```
+
+You will need to run:
+
+```
+python setup.py build_ext --inplace -j 4 && python -m pip install -e .
+```
+
+
 # Some development notes
 
 ## Docs contributing guideline
